@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif ;
+    box-sizing: border-box;
+}
+
+body{
+background:maroon;
+
+
+}
+
+.container{
+ max-width: 800px;
+ margin: auto;
+ padding: 10px;
+
+}
+
+.txtb{
+    width: 100px;
+    border: none;
+    border-bottom: 2px solid #000 ;
+    background:none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+}
+.task{
+    width: 100%;
+    background:rgba(red, green, blue, alpha);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+}  
+
+.task{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.comp .task{
+    background: rgba(red, green, blue, alpha);
+    color: #fff;
+}
+
